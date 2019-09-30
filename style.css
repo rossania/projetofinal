@@ -1,0 +1,63 @@
+
+*{
+	box-sizing: border-box;
+}
+.container{
+	max-width: 980px;
+	margin: 0 auto;
+}
+.header{
+	display: inline-block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #ffff66
+}
+.ajuda{
+	text-align: center;
+
+}
+.menu{
+	
+	float: right;
+}
+li{
+	display: inline-block;
+	padding: 5px 10px;
+	
+	 
+	margin: 0 auto;
+}
+
+
+
+
+
+.slider .slide{
+	text-align: center;
+	display: none;
+}
+.slider .slide.ativo{
+	display: block;
+}
+
+
+.cards .card{
+	display: inline-block;
+	width: 33%;
+	float: left;
+	margin: 0;
+	padding: 10px;
+}
+
+.cadastro{
+	display: inline-block;
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #ccffe6
+}
+form{
+	text-align: justify;
+}

@@ -8,19 +8,21 @@
 	<link rel="stylesheet" href="responsive.css">
 </head>
 <body>
-	<header>
-		<h1>Cultura</h1>
-		<img src="imagens/logo.jpg" alt="logo">
-		<form action="/submit">
-			<input type="text" placeholder="pesquisa">
-			<button type="button">Aqui!</button>
-		</form>
-		<ul>
-			<li><a href="#">Home</a></li>
-			<li><a href="#Categorias">Categorias</a></li>
-			<li><a href="#">Contato</a></li>
-		</ul>
-		
+	<header class="container">
+		<div class="header">
+	
+			<h1>Cultura</h1>
+			
+			<form class="ajuda" action="/submit">
+				<input type="text" placeholder="pesquisa">
+				<button type="button">Aqui!</button>
+			</form>
+			<ul class="menu">
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="#Categorias">Categorias</a></li>
+				<li><a href="#Contato">Contato</a></li>
+			</ul>
+		</div>
 	</header>
 	<section class="container">
 		<div class="slider">
@@ -40,18 +42,18 @@
 			<div class="Lançamentos">
 				<div class="cards">
 					<h1>Lançamentos</h1>
-					<figure class="cards">
-						<img src="imagens/livrolanç.png" alt="">
+					<figure class="card">
+						<img src="imagens/promoçao.png" alt="">
 						<h3>Do sonho à conquista</h3>
 						<h4>R$ 49.90</h4>
 					</figure>
-					<figure class="cards">
-						<img src="imagens/livrolanç.png" alt="">
+					<figure class="card">
+						<img src="imagens/promoçao.png" alt="">
 						<h3>Do sonho à conquista</h3>
 						<h4>R$ 49.90</h4>
 					</figure>
-					<figure class="cards">
-						<img src="imagens/livrolanç.png" alt="">
+					<figure class="card">
+						<img src="imagens/promoçao.png" alt="">
 						<h3>Do sonho à conquista</h3>
 						<h4>R$ 49.90</h4>
 					</figure>
@@ -60,19 +62,19 @@
 			<div class="Promção">
 				<div class="cards">
 					<h1>Promoção</h1>
-					<figure class="cards">
+					<figure class="card">
 						<img src="imagens/promoçao.png" alt="">
-						<h3>Educação financeira as escolas</h3>
+						<h3>Educação financeira nas escolas</h3>
 						<h4>R$ 19.90</h4>
 					</figure>
-					<figure class="cards">
+					<figure class="card">
 						<img src="imagens/promoçao.png" alt="">
-						<h3>Educação financeira as escolas</h3>
+						<h3>Educação financeira nas escolas</h3>
 						<h4>R$ 19.90</h4>
 					</figure>
-					<figure class="cards">
+					<figure class="card">
 						<img src="imagens/promoçao.png" alt="">
-						<h3>Educação financeira as escolas</h3>
+						<h3>Educação financeira nas escolas</h3>
 						<h4>R$ 19.90</h4>
 					</figure>
 				</div>
@@ -81,7 +83,20 @@
 	</section>
 	<section id="Contato">
 		<div class="container">
-			
+			<div class="cadastro">
+				<h4>Quer receber nossas novidades?</h4>
+				<h4>Cadastre seu email!</h4>
+				<img src="imagens/imgcontatos.png" alt="">
+			</div>
+			<div class="cadastro">
+				<form action="/submit">
+					Nome:<br>
+					<input type="text" name="Nome"><br>
+				    Email:<br>
+					<input type="text" email="Email"><br>
+					<button type="button">Quero me cadastrar</button>
+				</form>
+			</div>
 			
 		</div>
 		
