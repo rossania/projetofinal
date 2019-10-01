@@ -1,6 +1,6 @@
 @media screen and (max-width: 768px){
-	.cards .cards{
-		display: block;
-		width: 100%;
-	}
+  #categorias .cards .card{
+	 	display: block;
+	 	width: 100%;
+ 	} 
 }

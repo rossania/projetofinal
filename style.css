@@ -1,10 +1,22 @@
 
 *{
 	box-sizing: border-box;
+	font-family: 'Grenze', serif;
 }
+
+html,body{
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	max-width: 100%;
+}
+
 .container{
 	max-width: 980px;
 	margin: 0 auto;
+	overflow: hidden;
 }
 .header{
 	display: inline-block;
@@ -50,14 +62,20 @@ li{
 	padding: 10px;
 }
 
-.cadastro{
+#contato{
+	background-color: #ccffe6
+}
+
+#contato .cadastro{
 	display: inline-block;
 	width: 50%;
 	margin: 0;
 	padding: 0;
 	float: left;
-	background-color: #ccffe6
 }
+
 form{
-	text-align: justify;
+	text-align: center;
+	padding: 25px 50px 75px;
+	box-sizing: border-box; 
 }
