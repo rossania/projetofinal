@@ -3,4 +3,10 @@
 	 	display: block;
 	 	width: 100%;
  	} 
+
+ 	.header .item{
+ 		display: block;
+ 		width: 100%;
+ 	}
 }
+

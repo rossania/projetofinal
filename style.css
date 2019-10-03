@@ -23,10 +23,11 @@ img{
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	background-color: #ffff66
+	background-color: #ffff66;
 }
-.ajuda{
-	text-align: center;
+.header .ajuda{
+	text-align: center; 
+	padding-top: 30px;
 
 }
 .menu{
@@ -41,7 +42,12 @@ li{
 	margin: 0 auto;
 }
 
+.header .item{
+	width: 33%;
+	display: inline-block;
+	float: left;
 
+}
 
 
 
@@ -74,8 +80,16 @@ li{
 	float: left;
 }
 
-form{
+.contato-form{
 	text-align: center;
 	padding: 25px 50px 75px;
 	box-sizing: border-box; 
+}
+#contato .contato-form{
+	padding-top: 50px;
+}
+.contato-form input{
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
