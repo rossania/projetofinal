@@ -34,7 +34,7 @@ img{
 	
 	float: right;
 }
-li{
+.cabecalho{
 	display: inline-block;
 	padding: 5px 10px;
 	
@@ -66,6 +66,7 @@ li{
 	float: left;
 	margin: 0;
 	padding: 10px;
+	
 }
 
 #contato{
@@ -93,3 +94,37 @@ li{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
+
+.footer{
+	background-color: #ffff66;
+	
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.footer .rodape .rdp{
+	display: inline-block;
+	width: 33%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.atlj{
+	list-style-type: none; 
+}
+
+.cartao{
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+
+}
+.cartao .cred{
+	display: inline-block;
+	padding: 0px;
+	width: 40px;
+	height: 40px;
+	
+}
+
