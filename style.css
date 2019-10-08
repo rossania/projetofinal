@@ -48,6 +48,11 @@ img{
 	float: left;
 
 }
+.ajuda input{
+	width: 70%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 
 
@@ -110,21 +115,33 @@ img{
 	margin: 0;
 	padding: 0;
 }
+
 .atlj{
 	list-style-type: none; 
 }
 
-.cartao{
-	width: 100px;
-	height: 100px;
-	display: inline-block;
-
-}
 .cartao .cred{
-	display: inline-block;
-	padding: 0px;
-	width: 40px;
-	height: 40px;
-	
+	padding-left: 2px;
+	width: 200px;
+}
+
+.social{
+	width: 400px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.social .rs{
+	padding-left: 2px;
+	width: 50px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.cartao {
+	display: flex;
+	justify-content: flex-start;
+	text-decoration: none;
+	list-style: none;
 }
 
