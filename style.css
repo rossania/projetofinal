@@ -145,3 +145,18 @@ img{
 	list-style: none;
 }
 
+.livro{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	padding: 10px;
+}
+
+.preço{
+	color: #1212FF;
+	text-align: center;
+}
+
+.preço button{
+	border-style: solid;
+	background-color: #FFBD63;
